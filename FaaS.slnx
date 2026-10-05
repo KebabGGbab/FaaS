@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE.txt" />
+    <File Path="Readme.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/FaaS.Application/FaaS.Application.csproj" />
+    <Project Path="src/FaaS.Domain/FaaS.Domain.csproj" />
+    <Project Path="src/FaaS.Infrastructure/FaaS.Infrastructure.csproj" />
+    <Project Path="src/FaaS.Web/FaaS.Web.csproj" />
+  </Folder>
+</Solution>
