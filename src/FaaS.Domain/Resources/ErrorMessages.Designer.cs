@@ -61,6 +61,24 @@ namespace FaaS.Domain.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Логин не указан..
+        /// </summary>
+        internal static string LoginIsNull {
+            get {
+                return ResourceManager.GetString("LoginIsNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логин должен быть не менее {0} символов..
+        /// </summary>
+        internal static string LoginIsSmall {
+            get {
+                return ResourceManager.GetString("LoginIsSmall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Имя пользователя должно быть не более {0} символов..
         /// </summary>
         internal static string NameIsBig {
@@ -75,6 +93,24 @@ namespace FaaS.Domain.Resources {
         internal static string NameIsSmall {
             get {
                 return ResourceManager.GetString("NameIsSmall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пароль не указан..
+        /// </summary>
+        internal static string PasswordIsNull {
+            get {
+                return ResourceManager.GetString("PasswordIsNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пароль должен быть не менее {0} символов..
+        /// </summary>
+        internal static string PasswordIsSmall {
+            get {
+                return ResourceManager.GetString("PasswordIsSmall", resourceCulture);
             }
         }
     }

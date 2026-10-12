@@ -117,10 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LoginIsNull" xml:space="preserve">
+    <value>Логин не указан.</value>
+  </data>
+  <data name="LoginIsSmall" xml:space="preserve">
+    <value>Логин должен быть не менее {0} символов.</value>
+  </data>
   <data name="NameIsBig" xml:space="preserve">
     <value>Имя пользователя должно быть не более {0} символов.</value>
   </data>
   <data name="NameIsSmall" xml:space="preserve">
     <value>Имя пользователя должно быть не менее {0} символов.</value>
+  </data>
+  <data name="PasswordIsNull" xml:space="preserve">
+    <value>Пароль не указан.</value>
+  </data>
+  <data name="PasswordIsSmall" xml:space="preserve">
+    <value>Пароль должен быть не менее {0} символов.</value>
   </data>
 </root>
