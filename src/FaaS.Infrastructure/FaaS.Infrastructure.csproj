@@ -6,4 +6,29 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaaS.Domain\FaaS.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DddSharedKernel.Domain">
+      <HintPath>..\..\..\..\..\..\Projects\DddSharedKernel\src\DddSharedKernel.Domain\bin\Debug\net10.0\DddSharedKernel.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="DddSharedKernel.Infrastructure">
+      <HintPath>..\..\..\..\..\..\Projects\DddSharedKernel\src\DddSharedKernel.Infrastructure\bin\Debug\net10.0\DddSharedKernel.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
