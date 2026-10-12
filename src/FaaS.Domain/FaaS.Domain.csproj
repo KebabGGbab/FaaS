@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Aggregates\**" />
-    <EmbeddedResource Remove="Aggregates\**" />
-    <None Remove="Aggregates\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="DddSharedKernel.Domain">
       <HintPath>..\..\..\..\..\..\Projects\DddSharedKernel\src\DddSharedKernel.Domain\bin\Debug\net10.0\DddSharedKernel.Domain.dll</HintPath>
     </Reference>
