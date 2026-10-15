@@ -59,5 +59,14 @@ namespace FaaS.Application.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логин занят..
+        /// </summary>
+        internal static string LoginIsBusy {
+            get {
+                return ResourceManager.GetString("LoginIsBusy", resourceCulture);
+            }
+        }
     }
 }
