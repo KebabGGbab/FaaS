@@ -61,6 +61,15 @@ namespace FaaS.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Не удалось удалить функцию..
+        /// </summary>
+        internal static string FailDeleteFunction {
+            get {
+                return ResourceManager.GetString("FailDeleteFunction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to upload file..
         /// </summary>
         internal static string FailUploadFunction {

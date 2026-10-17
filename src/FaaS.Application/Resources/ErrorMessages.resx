@@ -126,4 +126,7 @@
   <data name="FailUploadFunction" xml:space="preserve">
     <value>Failed to upload file.</value>
   </data>
+  <data name="FailDeleteFunction" xml:space="preserve">
+    <value>Не удалось удалить функцию.</value>
+  </data>
 </root>
