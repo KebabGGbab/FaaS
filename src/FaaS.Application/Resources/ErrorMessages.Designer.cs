@@ -68,5 +68,14 @@ namespace FaaS.Application.Resources {
                 return ResourceManager.GetString("LoginIsBusy", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логин или пароль неверны..
+        /// </summary>
+        internal static string LoginOrPasswordIncorrect {
+            get {
+                return ResourceManager.GetString("LoginOrPasswordIncorrect", resourceCulture);
+            }
+        }
     }
 }
