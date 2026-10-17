@@ -61,6 +61,15 @@ namespace FaaS.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Failed to upload file..
+        /// </summary>
+        internal static string FailUploadFunction {
+            get {
+                return ResourceManager.GetString("FailUploadFunction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Логин занят..
         /// </summary>
         internal static string LoginIsBusy {

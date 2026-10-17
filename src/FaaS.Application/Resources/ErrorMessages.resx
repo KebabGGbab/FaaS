@@ -123,4 +123,7 @@
   <data name="LoginIsBusy" xml:space="preserve">
     <value>Логин занят.</value>
   </data>
+  <data name="FailUploadFunction" xml:space="preserve">
+    <value>Failed to upload file.</value>
+  </data>
 </root>
