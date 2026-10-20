@@ -9,6 +9,7 @@
     <Project Path="src/FaaS.Application/FaaS.Application.csproj" />
     <Project Path="src/FaaS.Domain/FaaS.Domain.csproj" />
     <Project Path="src/FaaS.Infrastructure/FaaS.Infrastructure.csproj" />
+    <Project Path="src/FaaS.Shared/FaaS.Shared.csproj" Id="0a000a2a-1653-482b-8f5b-7522b4331323" />
     <Project Path="src/FaaS.Web/FaaS.Web.csproj" />
   </Folder>
 </Solution>
