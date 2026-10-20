@@ -126,6 +126,9 @@
   <data name="GetFunction" xml:space="preserve">
     <value>Не удалось получить функцию.</value>
   </data>
+  <data name="GetUserFunctions" xml:space="preserve">
+    <value>Не удалось получить функции пользователя.</value>
+  </data>
   <data name="LoginIsBusy" xml:space="preserve">
     <value>Логин занят.</value>
   </data>
