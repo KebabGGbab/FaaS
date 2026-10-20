@@ -117,16 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LoginOrPasswordIncorrect" xml:space="preserve">
-    <value>Логин или пароль неверны.</value>
-  </data>
-  <data name="LoginIsBusy" xml:space="preserve">
-    <value>Логин занят.</value>
+  <data name="FailDeleteFunction" xml:space="preserve">
+    <value>Не удалось удалить функцию.</value>
   </data>
   <data name="FailUploadFunction" xml:space="preserve">
     <value>Failed to upload file.</value>
   </data>
-  <data name="FailDeleteFunction" xml:space="preserve">
-    <value>Не удалось удалить функцию.</value>
+  <data name="GetFunction" xml:space="preserve">
+    <value>Не удалось получить функцию.</value>
+  </data>
+  <data name="LoginIsBusy" xml:space="preserve">
+    <value>Логин занят.</value>
+  </data>
+  <data name="LoginOrPasswordIncorrect" xml:space="preserve">
+    <value>Логин или пароль неверны.</value>
   </data>
 </root>

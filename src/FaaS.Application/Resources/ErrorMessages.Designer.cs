@@ -79,6 +79,15 @@ namespace FaaS.Application.Resources {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Не удалось получить функцию..
+        /// </summary>
+        internal static string GetFunction {
+            get {
+                return ResourceManager.GetString("GetFunction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Логин занят..
         /// </summary>
         internal static string LoginIsBusy {
