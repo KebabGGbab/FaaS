@@ -1,0 +1,20 @@
+﻿.layout-body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--color-bluish);
+}
+
+.layout-main {
+    flex-grow: 1;
+}
+
+.layout-footer {
+    padding: 1.2em;
+    background-color: var(--color-light-blue);
+    border: 0.15em solid var(--color-black);
+}
+
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+﻿@model FunctionListViewModel
+
+@section head {
+    <th:link href="~/styles/Project.css" rel="stylesheet" />
+}
+
+<section class="container">
+    <h1 class="top-header">Функции</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="column-name">
+                    Название
+                </th>
+                <th class="column-language">
+                    Язык
+                </th>
+                <th class="column-description">
+                    Описание
+                </th>
+                <th class="column-details">
+                </th>
+                <th class="column-delete">
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                foreach (FunctionViewModel vm in Model.Functions)
+                {
+                    <tr>
+                        <td>
+                            @vm.Name
+                        </td>
+                        <td>
+                            @vm.Language.GetDisplayName()
+                        </td>
+                        <td>
+                            @vm.Description
+                        </td>
+                        <td class="cell-button">
+                            <span class="run-button button">
+                                <th:a asp-action="run" asp-route-id="@vm.Id" class="text-button">Запустить</th:a>
+                            </span>
+                        </td>
+                        <td class="cell-button">
+                            <th:form asp-action="delete" asp-route-id="@vm.Id" method="post"> 
+                                <button type="submit" class="button delete-button text-button">Удалить</button>
+                            </th:form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+</section>

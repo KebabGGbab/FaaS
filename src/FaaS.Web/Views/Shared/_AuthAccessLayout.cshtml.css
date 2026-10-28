@@ -1,0 +1,35 @@
+﻿.layout-body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--color-bluish);
+}
+
+.layout-project-nav {
+    padding: 2em;
+    background-color: var(--color-light-blue);
+    border-left: 0.15em solid var(--color-black);
+    border-right: 0.15em solid var(--color-black);
+}
+
+.layout-header {
+    padding: 0.8em;
+    background-color: var(--color-light-blue);
+    border: 0.15em solid var(--color-black);
+    grid-column: 1 / 3;
+}
+
+.layout-main {
+}
+
+.layout-footer {
+    padding: 1.2em;
+    background-color: var(--color-light-blue);
+    border: 0.15em solid var(--color-black);
+    grid-column: 1 / 3;
+}
+
+.copyright {
+    text-align: center;
+}

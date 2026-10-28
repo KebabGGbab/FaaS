@@ -1,0 +1,42 @@
+﻿/* Сброс стилей браузера */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+    color: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+html {
+    line-height: 1;
+    font-style: normal;
+    color: white;
+}
+
+html, body, main, section, aside, 
+address, article, nav, header, footer, 
+h1, h2, h3, h4, h5, h6, h7 {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+a {
+    outline: none;
+    text-decoration: underline;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}

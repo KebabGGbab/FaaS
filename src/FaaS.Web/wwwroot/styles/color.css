@@ -1,0 +1,59 @@
+﻿@property --color-black {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0, 0, 0);
+}
+
+@property --color-white {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(255, 255, 255);
+}
+
+@property --color-light-blue {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #8AB4F8;
+}
+
+@property --color-bluish {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #394354;
+}
+
+@property --color-aqua {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #00fff0;
+}
+
+@property --color-royal-blue {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #305cde;
+}
+
+@property --color-cobalt-blue {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #0047ab;
+}
+
+@property --color-chili-red {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #cd1c18;
+}
+
+@property --color-red-brown {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #942222;
+}
+
+@property --color-red {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(255, 0, 0);
+}

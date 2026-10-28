@@ -1,0 +1,52 @@
+﻿.container {
+    width: 70%;
+}
+
+.delete-button {
+    background-color: var(--color-red);
+}
+
+.delete-button:hover {
+    background-color: var(--color-red-brown);
+}
+
+.run-button {
+    background-color: var(--color-cobalt-blue);
+    display: inline-block;
+}
+
+.run-button:hover {
+    background-color: var(--color-royal-blue);
+}
+
+.cell-button {
+    text-align: center;
+}
+
+.column-name {
+    width: 15%;
+}
+
+.column-language {
+    width: 10%;
+}
+
+.column-description {
+    width: 40%;
+}
+
+.column-details {
+    width: 20%;
+}
+
+.column-delete {
+    width: 15%;
+}
+
+tr {
+    border-bottom: 0.1em solid var(--color-black);
+}
+
+td {
+    padding: 0.6em 1em;
+}

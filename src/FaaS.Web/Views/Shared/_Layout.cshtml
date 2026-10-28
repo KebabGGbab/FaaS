@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    @RenderSection("head", false)
+    <link href="/FaaS.Web.styles.css" rel="stylesheet">
+    <th:link href="~/styles/reset.css" rel="stylesheet" />
+    <th:link href="~/styles/text.css" rel="stylesheet" />
+    <th:link href="~/styles/color.css" rel="stylesheet" />
+    <th:link href="~/styles/shared.css" rel="stylesheet" />
+</head>
+<body class="layout-body">
+
+    <main class="layout-main">
+        @RenderBody()
+    </main>
+
+    <footer class="layout-footer">
+        <p class="copyright">
+            © 2026 - @(DateTime.Now.Year) Федотов Артем Олегович
+        </p>
+    </footer>
+</body>
+</html>

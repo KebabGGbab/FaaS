@@ -1,0 +1,33 @@
+﻿@model UserLogInDto
+
+@section head {
+    <th:link href="~/styles/Auth.css" rel="stylesheet" />
+}
+
+<section class="container">
+    <th:form asp-action="Login" method="post" class="auth-form-in">
+        <h1 class="top-header">Авторизация</h1>
+
+        <th:div asp-validation-summary="ModelOnly" class="form-property-validation-summary text-error"></th:div>
+
+        <div class="form-groups">
+            <th:label asp-for="Login" class="property-label required"></th:label>
+            <th:input asp-for="Login" class="form-property" />
+            <th:span asp-validation-for="Login" class="form-property-validation text-error"></th:span>
+
+            <th:label asp-for="Password" class="property-label required"></th:label>
+            <th:input asp-for="Password" class="form-property" />
+            <th:span asp-validation-for="Password" class="form-property-validation text-error"></th:span>
+        </div>
+
+        <div class="container-submit-form">
+            <button type="submit" class="button-submit-form">Войти</button>
+        </div>
+
+        <p class="auth-linked">
+            Нет аккаунта?
+
+            <th:a asp-action="SignIn">Зарегистрироваться</th:a>
+        </p>
+    </th:form>
+</section>

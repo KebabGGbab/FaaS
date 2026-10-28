@@ -1,0 +1,37 @@
+﻿@model UserCreateDto
+
+@section head {
+    <th:link href="~/styles/Auth.css" rel="stylesheet" />
+}
+
+<section class="container">
+    <th:form asp-action="SignIn" method="post" class="auth-form-in">
+        <h1 class="top-header">Регистрация</h1>
+
+        <th:div asp-validation-summary="ModelOnly" class="form-property-validation-summary text-error"></th:div>
+
+        <div class="form-groups">
+            <th:label asp-for="Login" class="property-label required"></th:label>
+            <th:input asp-for="Login" class="form-property" />
+            <th:span asp-validation-for="Login" class="form-property-validation text-error"></th:span>
+
+            <th:label asp-for="Password" class="property-label required"></th:label>
+            <th:input asp-for="Password" class="form-property" />
+            <th:span asp-validation-for="Password" class="form-property-validation text-error"></th:span>
+
+            <th:label asp-for="Name" class="property-label required"></th:label>
+            <th:input asp-for="Name" class="form-property" />
+            <th:span asp-validation-for="Name" class="form-property-validation text-error"></th:span>
+        </div>
+
+        <div class="container-submit-form">
+            <button type="submit" class="button-submit-form">Зарегестрироваться</button>
+        </div>
+
+        <p class ="auth-linked">
+            Уже зарегестрированы?
+
+            <th:a asp-action="LogIn">Войти</th:a> 
+        </p>
+    </th:form>
+</section>

@@ -1,0 +1,30 @@
+﻿@model FunctionRunViewModel
+
+@section head {
+    <th:link href="~/styles/Project.css" rel="stylesheet" />
+}
+
+<section class="container">
+    <h1 class="top-header">@Model.FunctionName</h1>
+
+    <th:form asp-action="run" asp-route-id="@Model.FunctionId" method="post">
+        <div class="form-groups">
+            <th:label asp-for="Args"></th:label>
+            <th:input asp-for="Args" class="form-property" />
+            <th:span asp-validation-for="Args" class="form-property-validation"></th:span>
+        </div>
+
+        <div class="container-submit-form">
+            <button type="submit" class="button-submit-form">Запустить</button>
+        </div>
+    </th:form>
+
+    <div class="metrics">
+        <span>Результат:</span>
+        <span>@Model.Result</span>
+        <span>Время выполнения (ms):</span>
+        <span>@Model.ExecutionTime</span>
+    </div>
+
+    <th:a asp-action="list" asp-route-id="@Model.UserId">&larr; к списку</th:a>
+</section>

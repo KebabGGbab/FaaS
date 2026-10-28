@@ -1,0 +1,10 @@
+﻿.container {
+    width: 40%;
+}
+
+.metrics {
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    row-gap: 0.6em;
+}

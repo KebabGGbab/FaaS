@@ -1,0 +1,16 @@
+﻿.layout-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    border: 0.15em solid var(--color-black);
+    border-radius: 1em;
+    padding: 2em;
+    background-color: var(--color-light-blue);
+}
+
+.auth-linked {
+    text-align: center;
+}
